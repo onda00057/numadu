@@ -1,0 +1,343 @@
+@charset "utf-8";
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+
+
+
+header {
+	background: url("../images/top.JPG");
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: 50vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 5rem;
+}
+
+@media screen and (max-width:770px) {
+
+	header {
+		height: 100vh;
+		flex-direction: column;
+	}
+
+}
+
+h1 img {
+	height: 40vw;
+	width: 40vw;
+	padding-left: 15vw;
+}
+
+@media screen and (max-width:770px) {
+
+	h1 img {
+		height: 50vw;
+		width: 50vw;
+		padding-left: 0;
+	}
+
+}
+
+h2 {
+	font-size: 2vw;
+}
+
+nav {
+	height: 50vw;
+	width: 25%;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.3);
+	font-size: 1.75vw;
+	text-align: center;
+	position: relative;
+
+}
+
+@media screen and (max-width:770px) {
+
+	nav {
+		width: 100%;
+		height: auto;
+	}
+
+}
+
+nav li {
+	margin-bottom: 2vw;
+	border-bottom: solid 1px white;
+	line-height: 5vw;
+}
+
+@media screen and (max-width:770px) {
+
+	nav li {
+		margin-bottom: 5vw;
+	}
+
+}
+
+nav a {
+	color: white;
+	text-shadow: black 1px 1px 2px;
+}
+
+@media screen and (max-width:770px) {
+
+	nav a {
+		font-size: 2.5vw;
+	}
+
+}
+
+nav ul {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50%;
+	width: 75%;
+}
+
+
+
+@media screen and (max-width:770px) {
+	nav ul {
+		margin-top: 0;
+		padding-top: 5vw;
+		padding-bottom: 5vw;
+		width: 50%;
+	}
+
+}
+
+.sayu {
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+
+
+
+
+.yokosen {
+	width: 25%;
+	height: 1px;
+	background-color: #107400;
+}
+
+@media screen and (max-width:770px) {
+
+	.yokosen {
+		display: none;
+	}
+
+}
+
+.midasi {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 5rem;
+}
+
+@media screen and (max-width:770px) {
+	.midasi {
+		border-bottom: 3px solid #107400;
+		width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 5vw;
+	}
+}
+
+.midasi h2 {
+	color: #107400;
+	margin-left: 2rem;
+	margin-right: 2rem;
+	white-space: nowrap;
+}
+
+@media screen and (max-width:770px) {
+	.midasi h2 {
+		padding-bottom: 1vw;
+	}
+}
+
+section {
+	display: flex;
+	justify-content: center;
+	align-items: start;
+	margin-bottom: 10rem;
+}
+
+@media screen and (max-width:770px) {
+
+	section {
+		flex-direction: column;
+		align-items: center;
+	}
+
+}
+
+section img {
+	width: 30%;
+	height: auto;
+}
+
+@media screen and (max-width:770px) {
+	section img {
+		width: 70%;
+		margin-bottom: 5vw;
+	}
+
+}
+
+.setumei {
+	width: 30%;
+	height: auto;
+}
+
+@media screen and (max-width:770px) {
+	.setumei {
+		width: 70%;
+	}
+
+}
+
+.setumei p {
+	font-size: 1.1vw;
+}
+
+@media screen and (max-width:770px) {
+
+	.setumei p {
+		font-size: 2vw;
+	}
+
+}
+
+.tatesen {
+	background-color: black;
+	width: 1px;
+	height: 15vw;
+	margin: 0 3rem;
+}
+
+@media screen and (max-width:770px) {
+
+	.tatesen {
+		display: none;
+	}
+
+}
+
+.koiao {
+	width: 10vw;
+	height: 1.8vw;
+	position: relative;
+	background-color: #57CEFF;
+	top: 2vw;
+	left: 18vw;
+
+}
+
+@media screen and (max-width:770px) {
+	.koiao {
+		width: 15vw;
+		height: 2.5vw;
+		position: relative;
+		background-color: #57CEFF;
+		top: 2vw;
+		left: 46vw;
+
+	}
+
+}
+
+.usuiao {
+	width: 10vw;
+	height: 1.8vw;
+	position: absolute;
+	background-color: #A1E7FF;
+	z-index: -1;
+	bottom: 0.5vw;
+	right: 3vw;
+}
+
+@media screen and (max-width:770px) {
+	.usuiao {
+		width: 15vw;
+		height: 2.5vw;
+		position: absolute;
+		background-color: #A1E7FF;
+		z-index: -1;
+		bottom: 1vw;
+		right: 3vw;
+	}
+
+}
+
+.banner-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 5rem;
+}
+
+.banner-list img {
+	width: 15vw;
+	height: 15vw;
+}
+
+@media screen and (max-width:770px) {
+	.banner-list img {
+		width: 20vw;
+		height: 20vw;
+	}
+}
+
+.kugiri {
+	width: 1px;
+	height: 15vw;
+	background-color: black;
+	margin-right: 3rem;
+	margin-left: 3rem;
+}
+
+@media screen and (max-width:770px) {
+	.kugiri {
+		width: 1px;
+		height: 20vw;
+		background-color: black;
+		margin-right: 2vw;
+		margin-left: 2vw;
+	}
+
+}
+
+
+footer {
+	background-color: #57CEFF;
+	height: 2.5rem;
+	width: 100%;
+	text-align: center;
+	padding-top: 1.25rem;
+}
+
+small {
+	color: white;
+}
